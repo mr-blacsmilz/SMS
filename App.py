@@ -191,5 +191,5 @@ else:
             color_discrete_sequence=["#2ECC71", "#E74C3C"]
         )
         st.plotly_chart(fig_bar, use_container_width=True)
-        import hardware_core 
+
 
