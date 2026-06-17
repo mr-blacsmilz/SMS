@@ -192,3 +192,6 @@ else:
             color_discrete_sequence=["#2ECC71", "#E74C3C"]
         )
         st.plotly_chart(fig_bar, use_container_width=True)
+        # When a scan arrives via the Cat6 cable, process it instantly
+response = hardware_core.process_raw_scan(scanned_id, active_lane, df, lunch_delay)
+
